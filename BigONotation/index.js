@@ -27,7 +27,7 @@ function binarySearch(sortedArray, target) {
 	return -1;
 }
 
-// console.log(binarySearch([2, 4, 5, 12, 5], 12)); // output: 3
+console.log(binarySearch([2, 4, 5, 12, 5, 11, 12, 1, 39].sort((a, b) => a - b), 1)); // output: 0
 
 // O(n) - Linear Time
 function findMaximum(arr) {
@@ -138,4 +138,4 @@ function fibonacci(n) {
 	return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-console.log(fibonacci(5));
+// console.log(fibonacci(5));
