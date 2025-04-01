@@ -27,7 +27,7 @@ function binarySearch(sortedArray, target) {
 	return -1;
 }
 
-console.log(binarySearch([2, 4, 5, 12, 5, 11, 12, 1, 39].sort((a, b) => a - b), 1)); // output: 0
+// console.log(binarySearch(mergeSort([2, 4, 5, 12, 5, 11, 12, 1, 39]), 11)); // output: 5
 
 // O(n) - Linear Time
 function findMaximum(arr) {
@@ -75,7 +75,7 @@ function merge(left, right) {
 	return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
 }
 
-// console.log(mergeSort([33, 100, 1, 2, 4, 25, 12, 5, 2, 2, 3, 10, 80, 11]));
+// console.log(mergeSort([33, 100, 1, 2, 3, 10, 80, 11]));
 /*
 [
 	 1,   2,  2,  2,  3,  4,
