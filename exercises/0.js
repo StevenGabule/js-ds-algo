@@ -25,18 +25,18 @@
 // Write a program that creates a string that represents an 8×8 grid, using new-line characters to
 // separate lines. At each position of the grid there is either a space or a # character. The characters
 // should form a chessboard.
-for(let i = 1; i <= 8; i++) {
-  let s = '';
-  if(i % 2 === 0) {
-    s += '#'
-    for(let x = 1; x <= 3; x++) {
-        s += ' #'
-    }
-  } else {
-    s += ' '
-    for(let x = 1; x <= 4; x++) {
-      s += '# '
-    }
-  }
-  console.log(s);
-}
+// for(let i = 1; i <= 8; i++) {
+//   let s = '';
+//   if(i % 2 === 0) {
+//     s += '#'
+//     for(let x = 1; x <= 3; x++) {
+//         s += ' #'
+//     }
+//   } else {
+//     s += ' '
+//     for(let x = 1; x <= 4; x++) {
+//       s += '# '
+//     }
+//   }
+//   console.log(s);
+// }
